@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="Widget.RoundedBackground" parent="android:Widget"/>
+
+    <style name="Widget.RoundedBackground.SampleTextView">
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="roundedTextHorizontalPadding">2.6dp</item>
+        <item name="roundedTextVerticalPadding">2dp</item>
+    </style>
+
+    <style name="Widget.RoundedBackground.Divider">
+        <item name="android:background">#CCC</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="RoundedBgTextView" parent="@android:style/Widget.TextView">
+        <item name="roundedTextHorizontalPadding">2dp</item>
+        <item name="roundedTextVerticalPadding">2dp</item>
+        <item name="roundedTextDrawable">@drawable/rounded_text_bg</item>
+        <item name="roundedTextDrawableLeft">@drawable/rounded_text_bg_left</item>
+        <item name="roundedTextDrawableMid">@drawable/rounded_text_bg_mid</item>
+        <item name="roundedTextDrawableRight">@drawable/rounded_text_bg_right</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#4caf50</color>
+
+    <color name="divider">#CCC</color>
+
+    <color name="roundedBg">#FFF176</color>
+    <color name="roundedBorder">#CABF45</color>
+
+    <color name="roundedTextBg">#333333</color>
+    <color name="roundedTextBorder">#DD0277BD</color>
+
+    <color name="codeTextColor">#EE6A6C</color>
+    <color name="codeBackgroundColor">#2b2b2b</color>
+
+</resources>
